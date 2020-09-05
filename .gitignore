@@ -1,9 +1,10 @@
 # Jekyll generated
 /_site/
-/Gemfile.lock
 .jekyll-cache/
 .jekyll-metadata
-.sass-cache
+.sass-cache/
+/Gemfile.lock
+
 
 
 ### Atom ###
