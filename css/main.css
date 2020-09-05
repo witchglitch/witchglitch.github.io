@@ -92,7 +92,7 @@ hr{border:0;border-top:1px solid #22272a;margin:20px 0}
 .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
 .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
 .w3-badge,.w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.w3-badge{border-radius:50%}
-.w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.w3-ul li:last-child{border-bottom:none}
+.w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px}.w3-ul li:last-child{border-bottom:none}
 .w3-tooltip,.w3-display-container{position:relative}.w3-tooltip .w3-text{display:none}.w3-tooltip:hover .w3-text{display:inline-block}
 .w3-ripple:active{opacity:0.5}.w3-ripple{transition:opacity 0s}
 .w3-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
@@ -191,7 +191,7 @@ hr{border:0;border-top:1px solid #22272a;margin:20px 0}
 .w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
 
 /*self written code*/
-.w3-padding-top{padding-top: 20px!important}
+.w3-padding-top{padding-top: 35px!important}
 
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
