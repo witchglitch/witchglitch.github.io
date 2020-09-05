@@ -5,3 +5,5 @@ url: https://witchglitch.github.io
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+exclude:
+  - .jekyll-cache
