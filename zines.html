@@ -1,0 +1,26 @@
+---
+layout: default
+title: witchglitch
+---
+
+<div class="w3-container">
+  {% for post in site.posts %}
+  <article>
+		 	<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    <h2>
+
+        {{ post.title }}
+
+    </h2>
+
+    {{ post.content }}
+
+  </article>
+	<br><br>
+
+<img src="/images/scissor_divider.png" alt="post divider" class="w3-image">
+<br><br><br>
+{% endfor %}
+
+
+</div>

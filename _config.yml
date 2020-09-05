@@ -1,0 +1,7 @@
+site.title: witchglitch
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+url: https://witchglitch.github.io
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
