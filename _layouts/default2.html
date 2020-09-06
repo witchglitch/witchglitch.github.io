@@ -2,7 +2,15 @@
 	<html>
 
 		<head>
-
+<script language="javascript" type="text/javascript">
+$( document ).ready( function()
+{
+	$( '.buzz' ).each( function()
+	{
+		$( this ).attr( 'data-buzz' , $( this ).text() );
+	} );
+} );
+</script>
 			<!-- favicons -->
 			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -33,13 +41,13 @@
 		<div class="w3-third w3-padding-top">
 
 	<ul class="w3-ul w3-small">
-<li><img src="/images/shop.png"> <a href="https://www.etsy.com/shop/witchglitchzines">Etsy Shop</a></li>
+<li><img src="/images/shop.png"> <a href="https://www.etsy.com/shop/witchglitchzines" class="underline">Etsy Shop</a></li>
 	<br>
-	<li><img src="/images/instagram.png"> <a href="https://www.instagram.com/violett_komplett">Instagram</a></li>
+	<li><img src="/images/instagram.png"> <a href="https://www.instagram.com/violett_komplett" class="underline">Instagram</a></li>
 	<br>
-	<li>	<img src="/images/play.png"> <a href="https://witchglitch.itch.io/">Twine Games</a></li>
+	<li>	<img src="/images/play.png"> <a href="https://witchglitch.itch.io/" class="underline">Twine Games</a></li>
 	<br>
-<li>	<img src="/images/email.png"> wwwitches(at)gmx.at<br></li>
+<li>	<img src="/images/email.png"> wwwitches(at)gmx.at</li>
 	</ul>
 </div>
 <div class="w3-twothird">
@@ -48,7 +56,7 @@
 
 </div>
 </div>
-			<footer class="w3-container w3-padding-32 w3-border-top">
+			<footer class="w3-container w3-padding-32">
 
 			</footer>
 			</div>
